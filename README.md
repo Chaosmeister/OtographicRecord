@@ -12,15 +12,13 @@ I chose the TS fileformat ([MPEG transport stream](https://en.wikipedia.org/wiki
 
 ------
 
-### Download -> Right click and "Save link as"
-
 # Streamlink configuration file
-+ File: [streamlinkrc](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/streamlinkrc)
++ File: [streamlinkrc](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/streamlinkrc) - Download -> Right click and "Save link as"
 + [Where to put it](https://streamlink.github.io/cli.html#configuration-file)
 
 # Recording batchscript
 has very basic auto-reconnect and failover capabilities 
-+ File: [Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat)
++ File: [Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat) - Download -> Right click and "Save link as"
 + Place it anywhere you like.
 
 ### Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
