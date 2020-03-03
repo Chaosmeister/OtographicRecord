@@ -1,5 +1,5 @@
 # OtographicRecord
-My little setup to record Otographic Arts from Twitch on Windows
+This is my little setup to record [Otographic Arts from Twitch](https://www.twitch.tv/otographic) on a Windows machine.
 
 Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
