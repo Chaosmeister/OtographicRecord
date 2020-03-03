@@ -8,7 +8,7 @@ Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
 ------
 # Streamlink configuration file
-my [Streamlink configuration file](https://streamlink.github.io/cli.html#configuration-file) 
+[Where to put it](https://streamlink.github.io/cli.html#configuration-file) 
 
 ```ini
 player="C:\Program Files\VideoLAN\VLC\vlc.exe" --file-caching=5000 --sout file/ts:out.ts
