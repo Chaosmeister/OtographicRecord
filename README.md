@@ -3,7 +3,7 @@ This is my little setup to record [Otographic Arts from Twitch](https://www.twit
 
 Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
-It records in TS fileformat (MPEG transport stream)
+It chose the TS fileformat (MPEG transport stream)
 https://en.wikipedia.org/wiki/MPEG_transport_stream
 
 ------
@@ -24,4 +24,5 @@ with very basic auto-reconnect and failover capabilities
 
 Place it anywhere you like.
 
-# Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
+### Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
+So about 2½ GB per Episode.
