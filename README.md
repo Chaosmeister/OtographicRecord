@@ -10,6 +10,8 @@ I chose the TS fileformat ([MPEG transport stream](https://en.wikipedia.org/wiki
 + Install [streamlink](https://streamlink.github.io/install.html)
 + Install [VLC](https://www.videolan.org/vlc/)
 
+------
+
 ### Download -> Right click and "Save link as"
 
 # Streamlink configuration file
