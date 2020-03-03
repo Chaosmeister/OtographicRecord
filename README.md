@@ -19,17 +19,18 @@ ffmpeg-ffmpeg=C:\Program Files (x86)\Streamlink\ffmpeg\ffmpeg.exe
 # Finally the recording batchscript
 with very basic auto-reconnect and failover capabilities 
 
+It expects to be run in the  
+
 ```batch
 @echo off
 
 SETLOCAL ENABLEEXTENSIONS
 set URL=https://www.twitch.tv/otographic
-set Error=error: No playable streams found on this URL: %URL%
 set Count=1
 
 :loop
-if exist "D:\\OA\\out.ts" (
-    ren "D:\\OA\\out.ts" %Count%_out.ts
+if exist "%cd%\\out.ts" (
+    ren "%cd%\\out.ts" %Count%_out.ts
     set /a Count=%Count%+1
 )
 streamlink %URL% best
