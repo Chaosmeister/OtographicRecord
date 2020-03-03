@@ -7,21 +7,19 @@ I chose the TS fileformat ([MPEG transport stream](https://en.wikipedia.org/wiki
 
 ------
 
-##### Install [streamlink](https://streamlink.github.io/install.html)
-##### Install [VLC](https://www.videolan.org/vlc/)
++ Install [streamlink](https://streamlink.github.io/install.html)
++ Install [VLC](https://www.videolan.org/vlc/)
 
 ### Download -> Right click and "Save link as"
 
 # Streamlink configuration file
-[Where to put it](https://streamlink.github.io/cli.html#configuration-file)
-[streamlinkrc](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/streamlinkrc)
++ [Where to put it](https://streamlink.github.io/cli.html#configuration-file)
++ [streamlinkrc](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/streamlinkrc)
 
 # Recording batchscript
-with very basic auto-reconnect and failover capabilities
-
-[Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat)
-
-Place it anywhere you like.
++ has very basic auto-reconnect and failover capabilities
++ [Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat)
++ Place it anywhere you like.
 
 ### Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
 So about 2½ GB per Episode.
