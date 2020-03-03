@@ -3,10 +3,14 @@ This is my little setup to record [Otographic Arts from Twitch](https://www.twit
 
 Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
+It records in TS fileformat (MPEG transport stream)
+https://en.wikipedia.org/wiki/MPEG_transport_stream
+
+------
+
 ##### Install [streamlink](https://streamlink.github.io/install.html)
 ##### Install [VLC](https://www.videolan.org/vlc/)
 
-------
 # Streamlink configuration file
 [Where to put it](https://streamlink.github.io/cli.html#configuration-file) 
 
@@ -17,22 +21,9 @@ ffmpeg-ffmpeg=C:\Program Files (x86)\Streamlink\ffmpeg\ffmpeg.exe
 ```
 
 # Finally the recording batchscript
-with very basic auto-reconnect and failover capabilities 
+with very basic auto-reconnect and failover capabilities
 
-It expects to be run in the  
+[Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat) - Right click and "Save link as" to download
 
-```batch
-@echo off
-
-SETLOCAL ENABLEEXTENSIONS
-set URL=https://www.twitch.tv/otographic
-set Count=1
-
-:loop
-if exist "%cd%\\out.ts" (
-    ren "%cd%\\out.ts" %Count%_out.ts
-    set /a Count=%Count%+1
-)
-streamlink %URL% best
-goto loop
-```
+Place it anywhere you like.
+2½ hours of OA take up about 2½ GB in ts format.
