@@ -23,3 +23,5 @@ has very basic auto-reconnect and failover capabilities
 
 ### Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
 So about 2½ GB per Episode.
+
+Change the [URL](https://github.com/Chaosmeister/OtographicRecord/blob/master/record.bat#L4) to record anything you like.
