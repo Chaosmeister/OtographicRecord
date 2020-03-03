@@ -16,8 +16,8 @@ rtmpdump=C:\Program Files (x86)\Streamlink\rtmpdump\rtmpdump.exe
 ffmpeg-ffmpeg=C:\Program Files (x86)\Streamlink\ffmpeg\ffmpeg.exe
 ```
 
-# Finally the recording Batchscript
-it has basic failover capabilities 
+# Finally the recording batchscript
+with very basic auto-reconnect and failover capabilities 
 
 ```batch
 @echo off
