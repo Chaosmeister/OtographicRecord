@@ -3,8 +3,7 @@ This is my little setup to record [Otographic Arts from Twitch](https://www.twit
 
 Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
-I chose the TS fileformat (MPEG transport stream)  
-https://en.wikipedia.org/wiki/MPEG_transport_stream
+I chose the TS fileformat ([MPEG transport stream](https://en.wikipedia.org/wiki/MPEG_transport_stream))  
 
 ------
 
