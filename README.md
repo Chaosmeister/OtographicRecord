@@ -24,4 +24,4 @@ with very basic auto-reconnect and failover capabilities
 
 Place it anywhere you like.
 
-# 2½ hours of OA take up about 2½ GB in ts format.
+# Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
