@@ -5,23 +5,23 @@ Based on [streamlink](https://streamlink.github.io/) and [VLC](www.videolan.org)
 
 I chose the TS fileformat ([MPEG transport stream](https://en.wikipedia.org/wiki/MPEG_transport_stream))  
 
-------
 
-+ Install [streamlink](https://streamlink.github.io/install.html)
-+ Install [VLC](https://www.videolan.org/vlc/)
+## Install:
 
-------
+- Download [record.sh](https://github.com/Chaosmeister/OtographicRecord/blob/master/record.sh)
 
-# Streamlink configuration file
-+ File: [streamlinkrc](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/streamlinkrc) - Download -> Right click and "Save link as"
-+ [Where to put it](https://streamlink.github.io/cli.html#configuration-file)
+make sure it's executable:
 
-# Recording batchscript
-has very basic auto-reconnect and failover capabilities 
-+ File: [Record.bat](https://raw.githubusercontent.com/Chaosmeister/OtographicRecord/master/record.bat) - Download -> Right click and "Save link as"
-+ Place it anywhere you like.
+```
+chmod +x record.sh
+```
 
-### Caution: 1 hour of OA takes up about 1 GB disk space in the ts format.
-So about 2½ GB per Episode.
+## Use:
 
-Change the [URL](https://github.com/Chaosmeister/OtographicRecord/blob/master/record.bat#L4) to record anything you like.
+- it accepts the streams link as a parameter: 
+```
+./record.sh twitch.tv/otographic
+```
+- it then checks if streamlink and vlc are present, if not it installs them (requiring a root password)
+- it then checks if the target outputfile exists and counts up until a free filename is found
+- then it starts recording the stream
